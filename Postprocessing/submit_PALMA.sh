@@ -20,7 +20,7 @@ export time="01:00:00"
 export partition="express"
 
 # Your email address
-export email="srussell@uni-muenster.de"
+export email=""
 
 ##############################
 #     --- Submission ---     #
