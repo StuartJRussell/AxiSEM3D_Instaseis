@@ -9,7 +9,9 @@ This repository contains scripts that allow the element outputs of AxiSEM3D simu
 
 ## Before using
 
-Before using this package you must have a working AxiSEM3D executable and in order to use the simulation creation script this ust be located in `Simulations/Draft_Simulation`. The AxiSEM3D code and installation instructions can be found at https://github.com/AxiSEMunity/AxiSEM3D
+Before using this package you must have a working AxiSEM3D executable and in order to use the simulation creation script this ust be located in `Simulations/Draft_Simulation`. The AxiSEM3D code and installation instructions can be found at https://github.com/AxiSEMunity/AxiSEM3D.
+
+The AxiSEM3D executable and SLURM submission scripts that are included in the package are specific to the PALMA II cluster of the University of Muenster and should be replaced/edited. See the specific README files in the subdirectories for further guidance.
 
 ## Quick example
 
