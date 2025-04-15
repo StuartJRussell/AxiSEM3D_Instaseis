@@ -1,9 +1,7 @@
 
 # Conda Environments Directory
 
-This directory contains files to setup conda environments that are required for this package to work.
-
-The conda environments can be created from the .yml files by running the folling line, substituting the correct filename.
+This directory contains files to setup conda environments that are required for this package to work. They are outlined below.
 
 ## axi_env.yml
 Conda environment for running the scripts of this package. Install with:
