@@ -7,6 +7,10 @@ This repository contains scripts that allow the element outputs of AxiSEM3D simu
 - `Simulations/` contains the necessary scripts for setting up the simulations.
 - `Postprocessing/` contains the scripts for converting the outputs of the simulations to Instaseis databases.
 
+## Before using
+
+Before using this package you must have a working AxiSEM3D executable and in order to use the simulation creation script this ust be located in `Simulations/Draft_Simulation`. The AxiSEM3D code and installation instructions can be found at https://github.com/AxiSEMunity/AxiSEM3D
+
 ## Quick example
 
 The following is a quick example of how to obtain an Instaseis database.
