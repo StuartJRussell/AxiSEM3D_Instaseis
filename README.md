@@ -16,14 +16,14 @@ First ensure that the conda envirtonment is activated
 conda activate axiinsta
 ```
 
-Next navigate into the simulations directory
-```
-cd Simulations
-```
-
-Then edit the parameters in `make_simulation.py` and then run the script
+Next navigate into the `Simulations/` directory and then edit the parameters in `make_simulation.py` and then run the script
 ```
 python3 make_simulation.py
 ```
 
-This should create a new directory which contains the AxiSEM3D simulations. Run this simulation.
+This should create a new directory which contains the AxiSEM3D simulations. Run this simulation, and once it is finished navigate into the `Postprocessing/` directory. Edit the parameters in `convert_to_Instaseis.py` and then run it. To run with 4 processes run 
+```
+python3 convert_to_Instaseis.py 4
+```
+
+This should create a `Databases/` directory in the root location, which contains the Instaseis databases.
