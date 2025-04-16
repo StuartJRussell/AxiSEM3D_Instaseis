@@ -36,7 +36,7 @@ def calculate_STF(source, time, magnitude):
                                         time_shift, derivative_order + 1)
     
     # STF should be normalised such that the absolute area is the source magnitude
-    # This actually doesn't matter as long as everything is consistent
+    # This actually doesn't matter because Instaseis normalises internally anyway
     area_STF = np.trapz(np.abs(STF), x=time)
     STF = magnitude * STF / area_STF
     

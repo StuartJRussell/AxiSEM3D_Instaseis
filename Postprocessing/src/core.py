@@ -36,7 +36,6 @@ class AxiSEM3D_Output:
         doi: 10.1111/j.1365-246X.2006.03121.x
     
     STILL TO DO:
-    - Check amplitudes of ERF sources
     - Write merged database rather than separate?
     """
     
