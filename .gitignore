@@ -1,3 +1,5 @@
 /Databases/
 /Simulations/P*
 /SR_tests/
+Postprocessing/src/__pycache__/
+Simulations/src/__pycache__/
