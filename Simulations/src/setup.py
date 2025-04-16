@@ -27,13 +27,13 @@ class New_Simulation:
                         destination='.', draft_location='./Draft_Simulation/',
                         run_mesher=False, buffer_size=1000):
         
-        # Ensure either PX or PZ
+        # Ensure either PX, PZ or both
         if source not in ['PX', 'PZ', 'both']:
             raise ValueError('Source must be PX, PZ or both')
         
         # Ensure polynomial order is either 2 or 4
         if polynomial_order not in [2, 4]:
-            raise ValueError('Polynomial order mus be 2 or 4')
+            raise ValueError('Polynomial order must be 2 or 4')
         
         # Add inputs as attributes
         self.mesh_file = mesh_file
@@ -353,7 +353,7 @@ class New_Simulation:
 
     def get_mesh_details(self, mesh_file):
         """
-        Reads the .bm and gets the mesh details
+        Reads the .bm and gets the mesh details.
         """
         
         with open(mesh_file, 'r') as f:
