@@ -13,6 +13,8 @@ Before using this package you must have a working AxiSEM3D executable and in ord
 
 The AxiSEM3D executable and SLURM submission scripts that are included in the package are specific to the PALMA II cluster of the University of Muenster and should be replaced/edited. See the specific README files in the subdirectories for further guidance.
 
+Information on instaseis can be found at https://instaseis.net/.
+
 ## Quick example
 
 The following is a quick example of how to obtain an Instaseis database.
