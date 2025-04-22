@@ -11,7 +11,7 @@ from src.setup import New_Simulation
 # What do you want to call the simulation?
 # This is just the name of the directory and does not affect the simulation.
 # Can be set as None, and the script will be called something sensible based on the mesh.
-simulation_name = None
+simulation_name = 'P_prem_ani_source_0'
 
 # What model do you want to use for the mesh?
 # Either an in-built model or .bm file.

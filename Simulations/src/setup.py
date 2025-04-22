@@ -323,6 +323,8 @@ class New_Simulation:
                                     'location']['depth'] = 0e0
         
         # Set the mechanism
+        # The magnitude doesn't actually matter because Instaseis corrects internally
+        # for whatever it is set to.
         force_vectors = {'PZ':[1e0, 0e0, 0e0],
                          'PX':[0e0, 1e0, 0e0],
                          'both':[1e0, 1e0, 0e0]}
